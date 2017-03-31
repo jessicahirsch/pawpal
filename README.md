@@ -1,4 +1,4 @@
-## Planetary Zoology ## 
+## Planetary Zoology 
 
 ![](https://media.giphy.com/media/TR5UrrKmEXyU0/giphy.gif)
 
