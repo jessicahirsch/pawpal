@@ -1,4 +1,4 @@
-## Planetary Zoology 
+### Planetary Zoology 
 
 ![](https://media.giphy.com/media/TR5UrrKmEXyU0/giphy.gif)
 
@@ -10,7 +10,7 @@ Use the skills we've been pracitcing over the last week, and create a database t
 
 Finally, build a form that will allow these overburdened zoologists to add new species to their database, update existing records, and delete records if they need.
 
-##STEPS: 
+###STEPS: 
 1. Create a database, and then run the seeds file.  Make sure you're installing proper pacakges: Express, Mustache-Express, pg-promise, and body-parser.
 
 2. Create a route in your Express app that renders a list of all creatures in the database.
