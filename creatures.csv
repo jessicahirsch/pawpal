@@ -1,15 +1,6 @@
-DROP TABLE IF EXISTS creatures;
-
-CREATE TABLE creatures(
-  id SERIAL PRIMARY KEY,
-  species VARCHAR (100) NOT NULL,
-  family VARCHAR (100) NOT NULL,
-  habitat VARCHAR (100) NOT NULL,
-  diet VARCHAR(50) NOT NULL,
-  planet VARCHAR(50) NOT NULL
-);
-
-COPY creatures
-  (species, family, habitat, diet, planet)
-FROM '/Users/MAKE/THIS/YOUR/FILE/PATH/creatures.csv'
-    DELIMITER ',' CSV;
+Space Aardvark,Mammal,Forest,Carnivore,Stuge
+Rufus Tentacler,Mollusk,Ocean,Carnivore,Stuge
+Balloon Wolf,Mammal,Sky,Carnivore,Plinth
+Mouse Cow,Mammal,Forest,Herbivore,Plinth
+Tree Gulper,Reptile,Forest,Herbivore,Stuge
+Sand Cucumber,Insect,Desert,Omnivore,Plinth
