@@ -1,0 +1,22 @@
+{
+  "name": "u02_d09_homework",
+  "version": "1.0.0",
+  "description": "![](https://media.giphy.com/media/TR5UrrKmEXyU0/giphy.gif)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@git.generalassemb.ly:nyc-wdi-shoebill/u02_d09_homework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mustache-express": "^1.2.4",
+    "pg-promise": "^5.6.4"
+  },
+  "devDependencies": {}
+}
