@@ -6,35 +6,39 @@
   <link rel="stylesheet" href="../public/css/style.css" type="text/css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Baloo+Bhaijaan|Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 </head>
 <body>
-  <img class= "logo" src="http://i.imgur.com/8ujE42M.png">
+  <img class="logo" src="http://i.imgur.com/8ujE42M.png">
     <div class="card-container">
-      <!-- <div class="card-bg-one"></div>
-      <div class="card-bg-two"></div> -->
+      <div class="card-bg-one"></div>
+      <div class="card-bg-two"></div>
       <div class="card">
-        <img id="media" class="media"></img>
-	    	<h1 class="name text-center">Finding pets to adopt around you</h1>
-        <img class="loading-image" src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" />
-        <div class="description"></div>
+        <div class="front face">
+          <img id="media" class="media"></img>
+  	    	<h1 class="name text-center">Finding pets to adopt around you</h1>
+          <img class="loading-image" src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" />
+          <div class="description"></div>
 
-
-        <div class="content-container">
-          <li><b>Animal</b><span class="animal"></span></li>
-          <li><b>Breed:</b> <span class="breed"></span></li>
-          <li><b>Size:</b> <span class="size"></span></li>
-          <li><b>Sex:</b> <span class="sex"></span></li>
-          <li><b>Emaii:</b> <span class="email"></span></li>
-          <li><b>Phone:</b> <span class="phone"></span></li>
+          <div class="content-container">
+            <div class="content-row">
+              <li>Animal: <span class="animal"></span></li>
+              <li>Breed: <span class="breed"></span></li>
+            </div>
+            <div class="content-row">
+              <li>Size: <span class="size"></span></li>
+              <li>Sex: <span class="sex"></span></li>
+            </div>
+            <li>Email: <span class="email"></span></li>
+            <li>Phone: <span class="phone"></span></li>
+          </div>
         </div>
-      <div class="button-container">
-        <img class="x" alt=""src="http://i.imgur.com/3kyHFZ3.png"onclick="getPet()">
-        <img class="heart" alt=""src="http://i.imgur.com/RJVsEGp.png"onclick="getInfo()">
       </div>
-      </div>
-
     </div>
-
+    <div class="button-container">
+      <img class="x" alt=""src="http://i.imgur.com/3kyHFZ3.png"onclick="getPet()">
+      <img class="heart" alt=""src="http://i.imgur.com/RJVsEGp.png"onclick="getInfo()">
+    </div>
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>

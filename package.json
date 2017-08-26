@@ -1,15 +1,15 @@
 {
-  "name": "u02_d09_homework",
+  "name": "pawpal",
   "version": "1.0.0",
   "description": "![](https://media.giphy.com/media/TR5UrrKmEXyU0/giphy.gif)",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@git.generalassemb.ly:nyc-wdi-shoebill/u02_d09_homework.git"
+    "url": ""
   },
   "author": "",
   "license": "ISC",
@@ -25,6 +25,7 @@
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.1.0",
+    "gulp-webserver": "^0.9.1"
   }
 }
