@@ -34,6 +34,7 @@ function getPet(){
     if(description == undefined ){
       description = "Currently doesn't have a bio. Go meet them!"
     };
+
     $('.loading-image').hide();
     $('.name').html(data.name.$t);
     $('.animal').html(data.animal.$t);
@@ -43,13 +44,18 @@ function getPet(){
     $('.email').html(data.contact.email.$t);
     $('.phone').html(data.contact.phone.$t);
     $('.media').attr('src', media);
+    $('.media').hide();
+    setTimeout(function(){
+      $('.media').show();
+    }, 600);
+
+
     $('.card').toggleClass( "flipped" )
     console.log(data)
     })
     .catch((err) => {
       console.log(err);
     });
-
 };
 
 function getInfo(){
