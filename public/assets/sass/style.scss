@@ -1,3 +1,6 @@
+$primary-color: white;
+$primary-background: #F4FBFD;
+
 * {
   background-color: #F4FBFD;
 }
@@ -47,7 +50,7 @@ li {
   text-align: center;
   width: 500px;
   padding: 40px;
-  background-color: white;
+  background-color: $primary-color;
   border-radius: 5px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
   max-height: 490px;
@@ -58,14 +61,14 @@ li {
   .info, .row, .description, .name, .breed, .text-center,
   .phone, .content-container, .animal, li , .content-row,
   .size, .sex, .email, .front, .face {
-    background-color: white;
+    background-color: $primary-color;
   }
 }
 .card-bg-one{
   position: fixed;
   width: 460px;
   padding: 40px;
-  background-color: white;
+  background-color: $primary-color;
   border-radius: 5px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
   top: 14%;
@@ -76,7 +79,7 @@ li {
   position: fixed;
   width: 480px;
   padding: 40px;
-  background-color: white;
+  background-color: $primary-color;
   border-radius: 5px;
   box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
   top: 12%;
@@ -128,7 +131,7 @@ li {
 .loading-image{
   width: 60%;
   padding: 20px;
-  background-color: white;
+  background-color: $primary-color;
 }
 .flipped{
   transform: rotateY(360deg);
@@ -147,7 +150,7 @@ li {
     text-align: center;
     width: 300px;
     padding: 40px;
-    background-color: white;
+    background-color: $primary-color;
     border-radius: 5px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
     max-height: 490px;
@@ -157,7 +160,7 @@ li {
     position: fixed;
     width: 260px;
     padding: 40px;
-    background-color: white;
+    background-color: $primary-color;
     border-radius: 5px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
     top: 14%;
@@ -168,7 +171,7 @@ li {
     position: fixed;
     width: 280px;
     padding: 40px;
-    background-color: white;
+    background-color: $primary-color;
     border-radius: 5px;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
     top: 12%;
@@ -208,5 +211,4 @@ li {
     overflow: auto;
     font-family: 'Montserrat', sans-serif;
   }
-
 }
