@@ -5,11 +5,12 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
+    "dev": "nodemon app.js & gulp",
     "test": "mocha test/test.js"
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://bitbucket.org/lukepate/pawpal"
   },
   "author": "",
   "license": "ISC",
@@ -26,6 +27,7 @@
     "browser-sync": "^2.18.13",
     "chai": "^4.1.1",
     "gulp": "^3.9.1",
+    "gulp-minify": "^1.0.0",
     "gulp-sass": "^3.1.0",
     "gulp-webserver": "^0.9.1",
     "mocha": "^3.5.0",

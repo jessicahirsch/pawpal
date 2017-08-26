@@ -11,7 +11,7 @@ describe('returns a {}', function() {
         request.get({ url: baseUrl },
             function(error, response, body) {
             		var bodyObj = JSON.parse(body);
-                    expect(response.statusCode).to.equal(200);
+                  expect(response.statusCode).to.equal(200);
                     console.log(body);
                 done();
             });
