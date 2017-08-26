@@ -1,0 +1,132 @@
+* {
+  background-color: #F4FBFD;
+}
+
+.name {
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 50px;
+  max-height: 100px;
+}
+.media {
+  max-height: 200px;
+}
+.description{
+  height:100px;
+  overflow: auto;
+}
+.container{
+  width: 50%;
+  margin-top: 40px;
+}
+
+.logo {
+  top: 3%;
+  margin-left: 30px;
+  width: 12%;
+  position: absolute;
+}
+.card-container{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.card-container{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.card{
+  position: absolute;
+  top: 10%;
+  text-align: center;
+  width: 500px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+  max-height: 490px;
+  min-height: 490px;
+
+  .info, .row, .description, .name, .breed, .text-center, .phone, .content-container, li {
+    background-color: white;
+  }
+}
+.card-bg{
+  position: absolute;
+  left: 33%;
+  top: 58%;
+  width: 480px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+
+}
+.card-bg-one{
+  position: absolute;
+  width: 460px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+  top: 66.2%;
+}
+.card-bg-two{
+  position: absolute;
+  width: 480px;
+  padding: 40px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+  top: 64.5%
+}
+.heart{
+  padding-left: 20px;
+  width: 100px;
+}
+.x{
+  width: 100px;
+  padding-right: 20px;
+}
+
+.content-container{
+  display:none;
+  list-style-type: none;
+  position: relative;
+  padding: 30px;
+}
+.content-row{
+  list-style-type: none;
+  position: absolute;
+  top: 54%;
+  left: 23%;
+}
+.button-container{
+  position: absolute;
+  top: 110%;
+  left: 31%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+.loading-image{
+  width: 60%;
+  padding: 20px;
+  background-color: white;
+}
